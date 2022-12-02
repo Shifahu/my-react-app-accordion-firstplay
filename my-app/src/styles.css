@@ -5,18 +5,13 @@
   }
   
   body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    /* background: rgb(238, 174, 202);
-    background: radial-gradient(
-      circle,
-      rgba(238, 174, 202, 1) 0%,
-      rgba(199, 233, 148, 1) 100%
-    ); */
     background-color: black;
   }
   img {
-      width: 100%;
+      width: 9%;
+      display: flex;
+      justify-content: center;
+      position: sticky;
   }
   
   h1 {
@@ -24,42 +19,52 @@
     margin: 2rem 0 4rem 0;
   }
   
+  
   .accordion {
-    max-width: 100%;
+    max-width: 600px;
     margin: 2rem auto;
+    position: relative;
   }
   
   .accordion-title {
-      width: 20%;
-    color: white;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     cursor: pointer;
-    background-color: black;
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
   }
   
-  /* .accordion-title:hover {
-    background-color: grey;
-  } */
-  .trademark{
-      color: white;
-  }
+ 
+  
   .accordion-title,
   .accordion-content {
     padding: 1rem;
   }
   
   .accordion-content {
-    background-color: grey;
+    color: white;
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+  }
+  .trademark{
+    color:white;
+    justify-content: center;
+    display: flex;
+    font-family: Helvetica;
+    position: relative;
+  }
+  .videoTag {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
   }
   
-  @media screen and (max-width: 700px) {
-    body {
-      font-size: 18px;
-    }
-  
-    .accordion {
-      width: 100%;
-    }
-  }
