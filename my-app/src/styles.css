@@ -1,70 +1,79 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: black;
-  }
-  img {
-      width: 9%;
-      display: flex;
-      justify-content: center;
-      position: sticky;
-  }
-  
-  h1 {
-    text-align: center;
-    margin: 2rem 0 4rem 0;
-  }
-  
-  
-  .accordion {
-    max-width: 600px;
-    margin: 2rem auto;
-    position: relative;
-  }
-  
-  .accordion-title {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    cursor: pointer;
-    color: white;
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 30px;
-  }
-  
- 
-  
-  .accordion-title,
-  .accordion-content {
-    padding: 1rem;
-  }
-  
-  .accordion-content {
-    color: white;
-    font-family: Helvetica;
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  }
-  .trademark{
-    color:white;
-    justify-content: center;
+body {
+  background-color: black;
+}
+img {
+    width: 9%;
     display: flex;
-    font-family: Helvetica;
-    position: relative;
+    justify-content: center;
+    position: sticky;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem 0 4rem 0;
+}
+
+
+.accordion {
+  max-width: 600px;
+  margin: 2rem auto;
+  position: relative;
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+
+.accordion-title,
+.accordion-content {
+  padding: 1rem;
+}
+
+.accordion-content {
+  color: white;
+  font-family: Helvetica;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+
+}
+.trademark{
+  color:white;
+  justify-content: center;
+  display: flex;
+  font-family: Helvetica;
+  position: relative;
+}
+.videoTag {
+object-fit: cover;
+width: 100vw;
+height: 100vh;
+position: fixed;
+top: 0;
+left: 0;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 18px;
   }
-  .videoTag {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
+
+  .accordion {
+    width: 90%;
   }
-  
+}

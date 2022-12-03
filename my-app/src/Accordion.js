@@ -9,8 +9,7 @@ const Accordion = ({ title, content, toggle, open }) => {
 
       </div>
        {  open === title &&  <div className="accordion-content">
-         {content}
-         </div>}
+         {content}</div>}
     </div>
   );
 };
