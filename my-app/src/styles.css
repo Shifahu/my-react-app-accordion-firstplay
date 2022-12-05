@@ -24,6 +24,7 @@ h1 {
   max-width: 600px;
   margin: 2rem auto;
   position: relative;
+  
 }
 
 .accordion-title {
@@ -36,7 +37,6 @@ h1 {
   font-weight: bold;
   font-size: 30px;
 }
-
 
 
 .accordion-title,
@@ -66,14 +66,4 @@ height: 100vh;
 position: fixed;
 top: 0;
 left: 0;
-}
-
-@media screen and (max-width: 700px) {
-  body {
-    font-size: 18px;
-  }
-
-  .accordion {
-    width: 90%;
-  }
 }
