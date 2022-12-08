@@ -20,6 +20,7 @@ const App = () => {
     <source src={video} type='video/mp4' />
 </video>
       <img src={logo} alt="logo"></img>
+      <div className="info">
       <div className="accordion">
         {accordionData.map(({ title, content }) => (
           <Accordion
@@ -32,6 +33,7 @@ const App = () => {
       </div>
       <div className="trademark">
         © 2022 &nbsp;<strong>First Play</strong>
+      </div>
       </div>
     </div>
   );

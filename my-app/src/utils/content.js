@@ -18,13 +18,10 @@ export const accordionData = [
   {
     title: 'Clients',
     content: [
-      { client: `Dayor`,
-    link:`https://instagram.com/dayorartist?igshid=YmMyMTA2M2Y=`  },
-      { client: `Gabzy`,
-    link: `https://instagram.com/itsgabzy?igshid=YmMyMTA2M2Y=` },
-      { client: `LeMav`,
-    link: `https://instagram.com/lemav_?igshid=YmMyMTA2M2Y=` }]
-  },
+      [`Dayor`,`https://instagram.com/dayorartist?igshid=YmMyMTA2M2Y=`],
+      [`Gabzy`,`https://instagram.com/itsgabzy?igshid=YmMyMTA2M2Y=`],
+      [`LeMav`,`https://instagram.com/lemav_?igshid=YmMyMTA2M2Y=`]
+    ]},
   {
     title: 'Contact',
     content: `admin@firstplaymt.com`
