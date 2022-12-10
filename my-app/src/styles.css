@@ -48,6 +48,7 @@ h1 {
   font-family: Helvetica;
   display: flex;
   justify-content: center;
+  text-align: center;
   font-weight: bold;
   /* width: 60%; */
   margin: auto;
@@ -73,6 +74,9 @@ opacity: 0.7;
 
 
 @media screen and (max-width: 425px) {
+  img {
+    width: 17%;
+  }
 
   .accordion {
     width: 90%
