@@ -16,7 +16,7 @@ const App = () => {
   return (
     <div>
 
-<video className='videoTag' autoPlay loop muted>
+<video className='videoTag'  autoPlay loop muted>
     <source src={video} type='video/mp4' />
 </video>
       <img src={logo} alt="logo"></img>
